@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="OpenCode Masterclass — curso do básico ao avançado">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#1f2a44"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#f778ba"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g opacity="0.12" stroke="#58a6ff" stroke-width="1">
+    <path d="M0 480 L1280 320"/>
+    <path d="M0 560 L1280 400"/>
+    <path d="M0 640 L1280 480"/>
+  </g>
+  <circle cx="1080" cy="150" r="120" fill="url(#accent)" opacity="0.18" filter="url(#glow)"/>
+
+  <text x="90" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" fill="#8b949e" letter-spacing="6">CURSO • 32 AULAS • V2</text>
+
+  <text x="88" y="350" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="92" font-weight="800" fill="#f0f6fc">OpenCode</text>
+  <text x="88" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="92" font-weight="800" fill="url(#accent)">Masterclass</text>
+
+  <text x="92" y="518" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#c9d1d9">Do básico ao avançado: agents, skills, plugins, MCP, CI/CD, API/SDK</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#0d1117">
+    <rect x="90" y="556" rx="16" width="150" height="44" fill="#58a6ff"/>
+    <text x="118" y="585">Básico</text>
+    <rect x="256" y="556" rx="16" width="170" height="44" fill="#a371f7"/>
+    <text x="284" y="585">Avançado</text>
+    <rect x="442" y="556" rx="16" width="170" height="44" fill="#f778ba"/>
+    <text x="470" y="585">Especialista</text>
+  </g>
+</svg>

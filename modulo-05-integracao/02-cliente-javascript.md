@@ -84,6 +84,10 @@ const info = await client.server.info()
 3. Chame um RPC de plugin de outro processo
 4. Use `Service.ensure()` num script Node e faça `server.info()`
 
+## 💡 Exemplo
+
+Veja [`exemplos/client.ts`](exemplos/client.ts) — cria sessão, envia prompt, assina eventos e usa `Service.ensure()`.
+
 ## 📚 Fonte oficial
 
 - [Client (JavaScript)](https://opencode.ai/v2/docs/build/client/)

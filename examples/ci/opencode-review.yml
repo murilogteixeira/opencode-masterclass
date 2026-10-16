@@ -1,0 +1,32 @@
+# Exemplo: revisão automática de Pull Requests com OpenCode.
+# Copie este arquivo para o SEU repositório e configure o secret ANTHROPIC_API_KEY.
+# Veja a aula: modulo-04-automacao/02-ci-cd.md
+#
+# Usa um agente read-only (.opencode/agents/revisor.md) para não editar arquivos no CI.
+
+name: OpenCode review
+
+on:
+  pull_request:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar OpenCode
+        run: npm install --global @opencode/cli
+
+      - name: Revisar o repositório com o agente revisor
+        run: |
+          opencode run --standalone --agent revisor \
+            "Revise as mudanças deste pull request. Liste os achados em ordem de severidade, com arquivo e linha."
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      # Dica: capture a saída com `--format json` e publique como comentário no PR
+      # usando a API do GitHub (veja a aula 02 do Módulo 04).

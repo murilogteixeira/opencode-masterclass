@@ -1,0 +1,25 @@
+name: 💡 Sugestão de conteúdo
+description: Sugira uma nova aula, exemplo ou melhoria
+title: "[ideia] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Qual conteúdo você sugere?
+      placeholder: "ex.: Aula sobre providers locais com vLLM"
+    validations:
+      required: true
+  - type: input
+    id: doc
+    attributes:
+      label: Página da documentação relacionada (se houver)
+      placeholder: "https://opencode.ai/v2/docs/..."
+    validations:
+      required: false
+  - type: textarea
+    id: motivacao
+    attributes:
+      label: Por que isso é útil?
+    validations:
+      required: false

@@ -24,6 +24,8 @@ Entender a diferença entre a **configuração do servidor/projeto** (`opencode.
 }
 ```
 
+> Exemplo completo e comentado: [`exemplos/opencode.jsonc`](exemplos/opencode.jsonc).
+
 ### Locais e precedência
 
 ```

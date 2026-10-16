@@ -19,8 +19,9 @@ Instruções para agentes OpenCode trabalhando neste projeto.
 - `modulo-05-integracao/` — API, cliente JS, SDK, ACP/Web/remoto
 - `modulo-06-operacao/` — troubleshooting, contexto, custo, Console, migração
 - `projetos-praticos/` — capstone e otimização
+- `docs/` — trilha de estudo (`TRILHA.md`) e glossário (`GLOSSARIO.md`); `CHEATSHEET.md` na raiz
 - Exemplos de código em `exemplos/` dentro de cada módulo; código deve rodar sem ajustes
-- Links entre aulas são relativos e devem funcionar no GitHub
+- Links entre aulas são relativos e devem funcionar no GitHub — valide com `bash scripts/check-links.sh`
 
 ## Git
 - Commits em Conventional Commits (feat:, fix:, docs:, refactor:)

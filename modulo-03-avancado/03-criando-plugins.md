@@ -132,6 +132,11 @@ Cliente HTTP: `client.rpc(Acme).search({ query: "hello" })` ou `POST /api/rpc/ac
 
 Empacote como um pacote npm (`@acme/opencode-plugin`) com entrypoint exportando o `Plugin.define(...)`. Habilite com `opencode plugin add`.
 
+## 💡 Exemplos
+
+- [`exemplos/plugins/greeting/index.ts`](exemplos/plugins/greeting/index.ts) — plugin com uma ferramenta
+- [`exemplos/plugins/acme-rpc.ts`](exemplos/plugins/acme-rpc.ts) — plugin com RPC (métodos + eventos)
+
 ## ❓ Desafio prático
 
 1. Crie um plugin com uma ferramenta `git_branch_name` que retorna a branch atual

@@ -80,6 +80,10 @@ Para rodar em Cloudflare Durable Objects, use a variante própria — veja o [gu
 3. Use `await using` e confirme a liberação ao sair do escopo
 4. Compare latência de uma chamada via SDK vs via cliente HTTP
 
+## 💡 Exemplo
+
+Veja [`exemplos/sdk.ts`](exemplos/sdk.ts) — host embutido com plugin, sessão e streaming de eventos.
+
 ## 📚 Fonte oficial
 
 - [SDK](https://opencode.ai/v2/docs/build/sdk/) · [Effect SDK](https://opencode.ai/v2/docs/build/sdk/effect/) · [Cloudflare SDK](https://opencode.ai/v2/docs/build/sdk/cloudflare/) · [Client Effect](https://opencode.ai/v2/docs/build/client/effect/)

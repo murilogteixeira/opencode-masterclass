@@ -1,8 +1,47 @@
-# Curso Masterclass de OpenCode: Do Básico ao Avançado
+<div align="center">
 
-Bem-vindo(a) ao **OpenCode Masterclass** — um curso prático e progressivo, **baseado na documentação oficial V2**, que percorre *tudo* o que o OpenCode oferece: da instalação até API, SDK, plugins, enterprise e migração.
+![OpenCode Masterclass](assets/banner.svg)
 
-> **Fonte da verdade:** todas as aulas referenciam a [documentação oficial V2](https://opencode.ai/v2/docs/). Se algo parecer desatualizado, confira lá primeiro.
+# 🚀 OpenCode Masterclass — Curso do Básico ao Avançado
+
+**O curso mais completo de [OpenCode](https://opencode.ai) (V2) em português.** 32 aulas práticas, 6 módulos + projetos finais, cobrindo *tudo*: agents, skills, commands, plugins, MCP servers, CI/CD, API, SDK e enterprise.
+
+Do primeiro `opencode` até automação de pipelines com IA e integração de plataforma.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs: OpenCode V2](https://img.shields.io/badge/docs-OpenCode%20V2-58a6ff.svg)](https://opencode.ai/v2/docs/)
+[![Idiomas](https://img.shields.io/badge/lang-PT--BR%20%7C%20EN-blue.svg)](README.en.md)
+[![Aulas](https://img.shields.io/badge/aulas-32-blueviolet.svg)](README.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/murilogteixeira/opencode-masterclass?style=social)](https://github.com/murilogteixeira/opencode-masterclass/stargazers)
+
+[**Começar agora**](#-roadmap-completo) · [Cheat Sheet](CHEATSHEET.md) · [Glossário](docs/GLOSSARIO.md) · [Trilha de estudo](docs/TRILHA.md) · [English](README.en.md)
+
+</div>
+
+---
+
+## 🌎 About / Sobre
+
+> **English:** A complete, hands-on **OpenCode course** (V2) in Portuguese — 32 lessons across 6 modules plus capstone projects. Learn the **AI coding agent** from install to advanced **agents, skills, commands, plugins, MCP servers, GitHub Actions CI/CD, the HTTP API, JavaScript client, SDK, and the enterprise Console**. Grounded in the official docs. → [Read the English overview](README.en.md).
+
+O **OpenCode** é um agente de programação com IA, open source, que roda no terminal (TUI), desktop e web. Este repositório é um **curso/guia** progressivo e prático que ensina você a dominá-lo por completo — cada aula tem objetivo, conteúdo, **desafio prático** e links para a [documentação oficial](https://opencode.ai/v2/docs/).
+
+**Tópicos cobertos:** `opencode` · `agents` · `skills` · `commands` · `plugins` · `MCP` · `permissions` · `policies` · `providers` · `models` · `websearch` · `references` · `compaction` · `CI/CD` · `GitHub Actions` · `HTTP API` · `JavaScript client` · `SDK` · `ACP` · `Console (enterprise)` · `migração V1→V2`.
+
+---
+
+## 📚 Sumário
+
+- [Sobre](#-about--sobre)
+- [Roadmap completo](#-roadmap-completo)
+- [Começando](#-começando)
+- [Estrutura do repositório](#-estrutura-do-repositório)
+- [Recursos extras](#-recursos-extras)
+- [Documentação oficial](#-documentação-oficial)
+- [Como contribuir](#-como-contribuir)
+
+---
 
 ## 🗺️ Roadmap completo
 
@@ -13,45 +52,100 @@ Bem-vindo(a) ao **OpenCode Masterclass** — um curso prático e progressivo, **
 | **03** | Estendendo o OpenCode | 🟠 Avançado | 5 | Agentes, plugins (uso + criação + RPC), websearch, referências/anexos |
 | **04** | Automação e CI/CD | 🟠 Avançado | 3 | `opencode run`, sessões, GitHub Actions, workflows |
 | **05** | Integração e Plataforma | 🟣 Especialista | 4 | HTTP API, cliente JS, SDK/Effect/Cloudflare, ACP/Web/remoto |
-| **06** | Operação, Performance e Enterprise | 🟣 Especialista | 5 | Troubleshooting, compaction/snapshots/warming, custo, Console, migração V1→V2 |
+| **06** | Operação, Performance e Enterprise | 🟣 Especialista | 5 | Troubleshooting, compaction/snapshots/warming, custo, Console, migração |
 | **Projetos** | Projetos Finais | 🟣 Especialista | 3 | Capstone, otimização, deploy |
 
-**32 aulas** cobrindo os 4 pilares de configuração (Agents, Models, Skills, Commands, Plugins…), a CLI completa, a camada de build (API/SDK/client) e o Console enterprise.
-
-## 🚀 Como usar
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/muriloteixeira/opencode-masterclass.git
-   cd opencode-masterclass
-   ```
-2. **Siga os módulos na ordem** — são progressivos e cada um assume o anterior.
-3. **Faça o desafio prático** ao final de cada aula antes de avançar.
-4. **Versione seu progresso** — um commit pequeno por aula.
-
-## 🔗 Navegação rápida
-
-- **Módulo 01** → [`modulo-01-fundamentos/`](modulo-01-fundamentos/README.md)
-- **Módulo 02** → [`modulo-02-intermediario/`](modulo-02-intermediario/README.md)
-- **Módulo 03** → [`modulo-03-avancado/`](modulo-03-avancado/README.md)
-- **Módulo 04** → [`modulo-04-automacao/`](modulo-04-automacao/README.md)
-- **Módulo 05** → [`modulo-05-integracao/`](modulo-05-integracao/README.md)
-- **Módulo 06** → [`modulo-06-operacao/`](modulo-06-operacao/README.md)
-- **Projetos finais** → [`projetos-praticos/`](projetos-praticos/README.md)
-
-## 📚 Documentação oficial (fonte final)
-
-- [Docs V2](https://opencode.ai/v2/docs/) · [Config](https://opencode.ai/v2/docs/config/) · [CLI](https://opencode.ai/v2/docs/cli/)
-- [Agents](https://opencode.ai/v2/docs/agents/) · [Commands](https://opencode.ai/v2/docs/commands/) · [Skills](https://opencode.ai/v2/docs/skills/) · [Plugins](https://opencode.ai/v2/docs/plugins/)
-- [Providers](https://opencode.ai/v2/docs/providers/) · [Models](https://opencode.ai/v2/docs/models/) · [MCP servers](https://opencode.ai/v2/docs/mcp-servers/)
-- [Permissions](https://opencode.ai/v2/docs/permissions/) · [Policies](https://opencode.ai/v2/docs/policies/) · [Tools](https://opencode.ai/v2/docs/tools/)
-- [API](https://opencode.ai/v2/docs/api/) · [Client](https://opencode.ai/v2/docs/build/client/) · [SDK](https://opencode.ai/v2/docs/build/sdk/) · [Console](https://opencode.ai/v2/docs/console/)
-- [Troubleshooting](https://opencode.ai/v2/docs/troubleshooting/) · [Migrate V1](https://opencode.ai/v2/docs/migrate-v1/)
-
-## 📅 Atualizado em
-
-2026-10-16
+👉 Detalhes e pré-requisitos em [`docs/TRILHA.md`](docs/TRILHA.md).
 
 ---
 
-> **Dica:** salve cada aula como um commit limpo — isso ajuda a revisar seu progresso e permite reverter se algo der errado!
+## 🚀 Começando
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/murilogteixeira/opencode-masterclass.git
+cd opencode-masterclass
+
+# 2. Instale o OpenCode (V2)
+curl -fsSL https://opencode.ai/v2/install | bash
+# alternativas: npm i -g @opencode/cli | brew install anomalyco/tap/opencode-v2
+
+# 3. Conecte um provedor e escolha um modelo
+opencode        # abra a TUI e rode: /connect  e depois  /models
+```
+
+Depois, siga os módulos na ordem. Cada aula termina com um **desafio prático** — faça-o antes de avançar e versione seu progresso (um commit por aula).
+
+### Pré-requisitos
+- Terminal (Linux, macOS ou WSL2); Node.js só se usar a instalação via npm
+- Conta em um provedor de modelos (ou Ollama/LM Studio local)
+- Vontade de aprender fazendo 🙂
+
+---
+
+## 📁 Estrutura do repositório
+
+```
+opencode-masterclass/
+├── README.md                 # Você está aqui (PT-BR)
+├── README.en.md              # English overview
+├── CHEATSHEET.md             # Referência rápida de comandos
+├── CONTRIBUTING.md           # Como contribuir
+├── AGENTS.md                 # Convenções do repo (dogfooding do OpenCode)
+├── docs/
+│   ├── TRILHA.md             # Trilha de estudo e pré-requisitos
+│   └── GLOSSARIO.md          # Glossário de termos
+├── assets/                   # Banner e imagens
+├── scripts/                  # check-links.sh (valida links relativos)
+├── .github/                  # CI (link check) + templates de issue/PR
+├── .opencode/agents/         # Agente revisor do próprio repo (dogfooding)
+├── examples/ci/              # Exemplo de workflow de revisão de PR
+├── modulo-01-fundamentos/    # 5 aulas + exemplos
+├── modulo-02-intermediario/  # 7 aulas + exemplos
+├── modulo-03-avancado/       # 5 aulas + exemplos (agentes/plugins)
+├── modulo-04-automacao/      # 3 aulas
+├── modulo-05-integracao/     # 4 aulas + exemplos (client/SDK)
+├── modulo-06-operacao/       # 5 aulas
+└── projetos-praticos/        # 3 projetos finais
+```
+
+---
+
+## 🧰 Recursos extras
+
+- 📄 **[Cheat Sheet](CHEATSHEET.md)** — os comandos e trechos de config mais usados, em uma página
+- 🧭 **[Trilha de estudo](docs/TRILHA.md)** — ordem sugerida e pré-requisitos
+- 📖 **[Glossário](docs/GLOSSARIO.md)** — de *agent* a *worktree*
+- 🤖 **[Agente de exemplo](.opencode/agents/revisor.md)** — o próprio repo usa um agente revisor (dogfooding)
+- 🔁 **[Workflow de PR](examples/ci/opencode-review.yml)** — copie e revise PRs com OpenCode no CI
+
+---
+
+## 📚 Documentação oficial
+
+Toda aula referencia a **fonte da verdade**: [opencode.ai/v2/docs](https://opencode.ai/v2/docs/).
+
+- [Config](https://opencode.ai/v2/docs/config/) · [Agents](https://opencode.ai/v2/docs/agents/) · [Commands](https://opencode.ai/v2/docs/commands/) · [Skills](https://opencode.ai/v2/docs/skills/) · [Plugins](https://opencode.ai/v2/docs/plugins/)
+- [Providers](https://opencode.ai/v2/docs/providers/) · [Models](https://opencode.ai/v2/docs/models/) · [MCP](https://opencode.ai/v2/docs/mcp-servers/) · [Permissions](https://opencode.ai/v2/docs/permissions/) · [Policies](https://opencode.ai/v2/docs/policies/)
+- [API](https://opencode.ai/v2/docs/api/) · [Client](https://opencode.ai/v2/docs/build/client/) · [SDK](https://opencode.ai/v2/docs/build/sdk/) · [Console](https://opencode.ai/v2/docs/console/)
+- [Troubleshooting](https://opencode.ai/v2/docs/troubleshooting/) · [Migrate V1→V2](https://opencode.ai/v2/docs/migrate-v1/)
+
+---
+
+## 🤝 Como contribuir
+
+Contribuições são muito bem-vindas! Abra uma issue ou envie um PR — veja [`CONTRIBUTING.md`](CONTRIBUTING.md). Se este curso te ajudou, **deixe uma ⭐** para ajudar outras pessoas a encontrá-lo.
+
+## 📄 Licença
+
+[MIT](LICENSE) © 2026 Murilo Teixeira
+
+---
+
+<div align="center">
+
+**Aprendeu algo? ⭐ Dê uma estrela · 🐛 [Reporte um problema](https://github.com/murilogteixeira/opencode-masterclass/issues) · 🍴 Faça um fork**
+
+<sub>Feito com ☕ e OpenCode • Atualizado em 2026-10-16</sub>
+
+</div>

@@ -1,0 +1,29 @@
+// Exemplo de configuração de projeto do OpenCode (V2) — Módulo 01, Aula 04.
+// Copie para a raiz do seu projeto como `opencode.jsonc`.
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // Modelo padrão (provider/model) com variante opcional: "anthropic/claude-sonnet-4-5#high"
+  "model": "anthropic/claude-sonnet-4-5",
+
+  // Instruções de projeto carregadas automaticamente (além de AGENTS.md)
+  "instructions": ["CONTRIBUTING.md"],
+
+  // Permissões: a última regra que casa vence (amplo antes, exceções depois)
+  "permissions": [
+    { "action": "shell", "resource": "git push *", "effect": "ask" },
+    { "action": "read", "resource": ".env*", "effect": "deny" }
+  ],
+
+  // Formatar arquivos automaticamente após write/edit/patch
+  "formatter": true,
+
+  // Controlar contexto e custo
+  "compaction": { "auto": true },
+  "tool_output": { "max_lines": 2000, "max_bytes": 51200 },
+
+  // Deixe segredos fora do Git usando substituição de variável
+  "providers": {
+    "anthropic": { "settings": { "apiKey": "{env:ANTHROPIC_API_KEY}" } }
+  }
+}

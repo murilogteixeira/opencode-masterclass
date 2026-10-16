@@ -1,0 +1,37 @@
+name: 🐛 Erro de conteúdo
+description: Reporte um comando, flag, configuração ou link incorreto
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar! Verifique se o comportamento correto está na [documentação oficial V2](https://opencode.ai/v2/docs/).
+  - type: input
+    id: arquivo
+    attributes:
+      label: Arquivo/aula afetado
+      placeholder: "ex.: modulo-04-automacao/01-run-headless-e-sessoes.md"
+    validations:
+      required: true
+  - type: textarea
+    id: atual
+    attributes:
+      label: O que está no curso (incorreto)
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que deveria estar (correto)
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Link da documentação oficial que comprova
+      placeholder: "https://opencode.ai/v2/docs/..."
+    validations:
+      required: true

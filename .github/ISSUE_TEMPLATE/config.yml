@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentação oficial do OpenCode V2
+    url: https://opencode.ai/v2/docs/
+    about: Consulte a fonte da verdade antes de abrir uma issue.
+  - name: 💬 Dúvidas e discussões
+    url: https://github.com/murilogteixeira/opencode-masterclass/discussions
+    about: Perguntas sobre o curso ou sobre o OpenCode.
