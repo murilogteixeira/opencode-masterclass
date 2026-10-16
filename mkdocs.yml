@@ -1,0 +1,107 @@
+site_name: OpenCode Masterclass
+site_description: Curso completo de OpenCode (V2) — do básico ao avançado (32 aulas, 6 módulos + projetos)
+site_url: https://murilogteixeira.github.io/opencode-masterclass/
+repo_url: https://github.com/murilogteixeira/opencode-masterclass
+repo_name: murilogteixeira/opencode-masterclass
+edit_uri: edit/main/
+
+# O site é montado em site-content/ por scripts/build-docs.sh (preserva links relativos)
+docs_dir: site-content
+site_dir: site
+
+theme:
+  name: material
+  language: pt
+  logo: assets/banner.svg
+  favicon: assets/banner.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+plugins:
+  - search:
+      lang: pt
+
+nav:
+  - Início: index.md
+  - Comece aqui:
+      - Trilha de estudo: docs/TRILHA.md
+      - Glossário: docs/GLOSSARIO.md
+      - Cheat Sheet: CHEATSHEET.md
+      - Desafios: desafios/README.md
+      - Como contribuir: CONTRIBUTING.md
+  - "Módulo 01 — Fundamentos":
+      - Visão geral: modulo-01-fundamentos/README.md
+      - "01 Introdução ao OpenCode": modulo-01-fundamentos/01-introducao.md
+      - "02 Setup e Instalação": modulo-01-fundamentos/02-setup-ambiente.md
+      - "03 A TUI: sessões e keybinds": modulo-01-fundamentos/03-tui-sessoes-e-keybinds.md
+      - "04 Configuração e CLI settings": modulo-01-fundamentos/04-configuracao-e-cli-settings.md
+      - "05 Modelos e Providers": modulo-01-fundamentos/05-modelos-e-providers.md
+  - "Módulo 02 — Personalização":
+      - Visão geral: modulo-02-intermediario/README.md
+      - "01 Instruções e Prompts": modulo-02-intermediario/01-prompts.md
+      - "02 Comandos": modulo-02-intermediario/02-comandos.md
+      - "03 Permissões e Policies": modulo-02-intermediario/03-permissoes-e-policies.md
+      - "04 Ferramentas": modulo-02-intermediario/04-ferramentas.md
+      - "05 Skills": modulo-02-intermediario/05-skills.md
+      - "06 MCP servers": modulo-02-intermediario/06-mcp-servers.md
+      - "07 APIs e dados": modulo-02-intermediario/07-apis-e-dados.md
+  - "Módulo 03 — Avançado":
+      - Visão geral: modulo-03-avancado/README.md
+      - "01 Agentes": modulo-03-avancado/01-agentes.md
+      - "02 Plugins": modulo-03-avancado/02-plugins.md
+      - "03 Criando plugins": modulo-03-avancado/03-criando-plugins.md
+      - "04 Busca web": modulo-03-avancado/04-busca-web.md
+      - "05 Contexto: referências e anexos": modulo-03-avancado/05-contexto-referencias-e-anexos.md
+  - "Módulo 04 — Automação e CI/CD":
+      - Visão geral: modulo-04-automacao/README.md
+      - "01 run e sessões": modulo-04-automacao/01-run-headless-e-sessoes.md
+      - "02 CI/CD": modulo-04-automacao/02-ci-cd.md
+      - "03 Workflows e boas práticas": modulo-04-automacao/03-workflows-e-boa-praticas.md
+  - "Módulo 05 — Integração":
+      - Visão geral: modulo-05-integracao/README.md
+      - "01 HTTP API": modulo-05-integracao/01-http-api.md
+      - "02 Cliente JavaScript": modulo-05-integracao/02-cliente-javascript.md
+      - "03 SDK, Effect e Cloudflare": modulo-05-integracao/03-sdk-effect-e-cloudflare.md
+      - "04 ACP, Web e remoto": modulo-05-integracao/04-acp-web-e-acesso-remoto.md
+  - "Módulo 06 — Operação e Enterprise":
+      - Visão geral: modulo-06-operacao/README.md
+      - "01 Troubleshooting": modulo-06-operacao/01-troubleshooting.md
+      - "02 Contexto e rede": modulo-06-operacao/02-contexto-snapshots-warming-e-rede.md
+      - "03 Custo e estatísticas": modulo-06-operacao/03-custo-e-estatisticas.md
+      - "04 Console e enterprise": modulo-06-operacao/04-console-e-enterprise.md
+      - "05 Migração V1 → V2": modulo-06-operacao/05-migracao-v1-v2.md
+  - "Projetos finais":
+      - Visão geral: projetos-praticos/README.md
+      - "01 Capstone": projetos-praticos/01-capstone.md
+      - "02 Otimização": projetos-praticos/02-otimizacao.md
+      - "03 Deploy": projetos-praticos/03-deploy.md

@@ -13,10 +13,11 @@ Do primeiro `opencode` até automação de pipelines com IA e integração de pl
 [![Idiomas](https://img.shields.io/badge/lang-PT--BR%20%7C%20EN-blue.svg)](README.en.md)
 [![Aulas](https://img.shields.io/badge/aulas-32-blueviolet.svg)](README.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Check links](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/check-links.yml/badge.svg)](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/check-links.yml)
+[![CI](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/ci.yml/badge.svg)](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/ci.yml)
+[![Docs](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/docs.yml/badge.svg)](https://murilogteixeira.github.io/opencode-masterclass/)
 [![GitHub stars](https://img.shields.io/github/stars/murilogteixeira/opencode-masterclass?style=social)](https://github.com/murilogteixeira/opencode-masterclass/stargazers)
 
-[**Começar agora**](#-roadmap-completo) · [Cheat Sheet](CHEATSHEET.md) · [Glossário](docs/GLOSSARIO.md) · [Trilha de estudo](docs/TRILHA.md) · [English](README.en.md)
+[**Começar agora**](#-roadmap-completo) · [🌐 Site](https://murilogteixeira.github.io/opencode-masterclass/) · [Cheat Sheet](CHEATSHEET.md) · [Glossário](docs/GLOSSARIO.md) · [Trilha](docs/TRILHA.md) · [Desafios](desafios/README.md) · [English](README.en.md)
 
 </div>
 
@@ -96,9 +97,11 @@ opencode-masterclass/
 ├── docs/
 │   ├── TRILHA.md             # Trilha de estudo e pré-requisitos
 │   └── GLOSSARIO.md          # Glossário de termos
+├── desafios/                 # Exercícios e autoavaliação por módulo
 ├── assets/                   # Banner e imagens
-├── scripts/                  # check-links.sh (valida links relativos)
-├── .github/                  # CI (link check) + templates de issue/PR
+├── mkdocs.yml                # Config do site (GitHub Pages)
+├── scripts/                  # check-links.sh, check-structure.sh, build-docs.sh
+├── .github/                  # CI, deploy de docs, release, dependabot, templates
 ├── .opencode/agents/         # Agente revisor do próprio repo (dogfooding)
 ├── examples/ci/              # Exemplo de workflow de revisão de PR
 ├── modulo-01-fundamentos/    # 5 aulas + exemplos
@@ -117,8 +120,10 @@ opencode-masterclass/
 - 📄 **[Cheat Sheet](CHEATSHEET.md)** — os comandos e trechos de config mais usados, em uma página
 - 🧭 **[Trilha de estudo](docs/TRILHA.md)** — ordem sugerida e pré-requisitos
 - 📖 **[Glossário](docs/GLOSSARIO.md)** — de *agent* a *worktree*
-- 🤖 **[Agente de exemplo](.opencode/agents/revisor.md)** — o próprio repo usa um agente revisor (dogfooding)
+- 🏋️ **[Desafios](desafios/README.md)** — exercícios e autoavaliação por módulo
+- 🤖 **[Agente de exemplo](https://github.com/murilogteixeira/opencode-masterclass/blob/main/.opencode/agents/revisor.md)** — o próprio repo usa um agente revisor (dogfooding)
 - 🔁 **[Workflow de PR](examples/ci/opencode-review.yml)** — copie e revise PRs com OpenCode no CI
+- 🌐 **[Site](https://murilogteixeira.github.io/opencode-masterclass/)** — o curso publicado como site navegável
 
 ---
 

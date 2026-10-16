@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validar curso
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar estrutura e contagem de aulas
+        run: bash scripts/check-structure.sh
+
+      - name: Validar links relativos entre aulas
+        run: bash scripts/check-links.sh

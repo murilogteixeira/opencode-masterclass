@@ -9,6 +9,14 @@ env/
 # Saídas do OpenCode
 outputs/
 
+# Build do site MkDocs
+site/
+site-content/
+
+# Python (MkDocs)
+.mkdocs/
+pip-wheel-metadata/
+
 # IDEs e sistema
 .vscode/
 .idea/
