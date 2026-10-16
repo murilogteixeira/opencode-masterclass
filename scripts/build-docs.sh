@@ -24,6 +24,9 @@ cp -r "$root/assets" "$out/assets"
 cp -r "$root/desafios" "$out/desafios"
 cp -r "$root/examples" "$out/examples"
 
+# Traduções (mkdocs-static-i18n, docs_structure: folder)
+[ -d "$root/en" ] && cp -r "$root/en" "$out/en"
+
 # Módulos + projetos finais (com exemplos e imagens)
 for d in "$root"/modulo-* "$root"/projetos-praticos; do
   [ -d "$d" ] && cp -r "$d" "$out/"

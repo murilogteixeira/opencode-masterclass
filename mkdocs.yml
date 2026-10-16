@@ -50,6 +50,16 @@ markdown_extensions:
 plugins:
   - search:
       lang: pt
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: pt
+          name: Português
+          default: true
+        - locale: en
+          name: English
 
 nav:
   - Início: index.md
