@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 ![OpenCode Masterclass](assets/banner.svg)
 
@@ -148,7 +148,7 @@ Contribuições são muito bem-vindas! Abra uma issue ou envie um PR — veja [`
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **Aprendeu algo? ⭐ Dê uma estrela · 🐛 [Reporte um problema](https://github.com/murilogteixeira/opencode-masterclass/issues) · 🍴 Faça um fork**
 

@@ -6,7 +6,7 @@
 >
 > **Translation status:** Fully translated — all six modules plus the Cheat Sheet, Study path, Glossary and Challenges are available in English.
 
-<div align="center">
+<div align="center" markdown="1">
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](../LICENSE)
 [![Docs: OpenCode V2](https://img.shields.io/badge/docs-OpenCode%20V2-58a6ff.svg)](https://opencode.ai/v2/docs/)
