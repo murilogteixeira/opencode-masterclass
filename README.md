@@ -13,6 +13,7 @@ Do primeiro `opencode` até automação de pipelines com IA e integração de pl
 [![Idiomas](https://img.shields.io/badge/lang-PT--BR%20%7C%20EN-blue.svg)](README.en.md)
 [![Aulas](https://img.shields.io/badge/aulas-32-blueviolet.svg)](README.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Check links](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/check-links.yml/badge.svg)](https://github.com/murilogteixeira/opencode-masterclass/actions/workflows/check-links.yml)
 [![GitHub stars](https://img.shields.io/github/stars/murilogteixeira/opencode-masterclass?style=social)](https://github.com/murilogteixeira/opencode-masterclass/stargazers)
 
 [**Começar agora**](#-roadmap-completo) · [Cheat Sheet](CHEATSHEET.md) · [Glossário](docs/GLOSSARIO.md) · [Trilha de estudo](docs/TRILHA.md) · [English](README.en.md)
