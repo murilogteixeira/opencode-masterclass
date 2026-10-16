@@ -53,7 +53,7 @@ Then follow the modules in order — the lessons are in Portuguese, each ending 
 
 ## Useful links
 
-- 📄 [Cheat Sheet](CHEATSHEET.md) · 🧭 [Study path](docs/TRILHA.md) · 📖 [Glossary](docs/GLOSSARIO.md)
+- 📄 [Cheat Sheet](CHEATSHEET.md) · 🧭 [Study path](docs/TRILHA.md) · 📖 [Glossary](docs/GLOSSARIO.md) · ❓ [FAQ](docs/FAQ.md)
 - Official docs: [opencode.ai/v2/docs](https://opencode.ai/v2/docs/)
 
 ## Contributing

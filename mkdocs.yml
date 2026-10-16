@@ -69,6 +69,7 @@ plugins:
             "Cheat Sheet": "Cheat Sheet"
             "Desafios": "Challenges"
             "Como contribuir": "Contributing"
+            "Perguntas frequentes": "FAQ"
             "Módulo 01 — Fundamentos": "Module 01 — Fundamentals"
             "Módulo 02 — Personalização": "Module 02 — Customization"
             "Módulo 03 — Avançado": "Module 03 — Advanced"
@@ -118,6 +119,7 @@ nav:
       - Cheat Sheet: CHEATSHEET.md
       - Desafios: desafios/README.md
       - Como contribuir: CONTRIBUTING.md
+      - Perguntas frequentes: docs/FAQ.md
   - "Módulo 01 — Fundamentos":
       - Visão geral: modulo-01-fundamentos/README.md
       - "01 Introdução ao OpenCode": modulo-01-fundamentos/01-introducao.md

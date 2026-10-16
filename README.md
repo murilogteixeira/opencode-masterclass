@@ -120,6 +120,7 @@ opencode-masterclass/
 - 📄 **[Cheat Sheet](CHEATSHEET.md)** — os comandos e trechos de config mais usados, em uma página
 - 🧭 **[Trilha de estudo](docs/TRILHA.md)** — ordem sugerida e pré-requisitos
 - 📖 **[Glossário](docs/GLOSSARIO.md)** — de *agent* a *worktree*
+- ❓ **[FAQ](docs/FAQ.md)** — respostas rápidas sobre configuração, modelos, logs e segredos
 - 🏋️ **[Desafios](desafios/README.md)** — exercícios e autoavaliação por módulo
 - 🤖 **[Agente de exemplo](https://github.com/murilogteixeira/opencode-masterclass/blob/main/.opencode/agents/revisor.md)** — o próprio repo usa um agente revisor (dogfooding)
 - 🔁 **[Workflow de PR](examples/ci/opencode-review.yml)** — copie e revise PRs com OpenCode no CI
