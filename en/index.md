@@ -4,7 +4,7 @@
 
 > 🇧🇷 **The full lesson content is written in Portuguese.** → [Read in Portuguese](https://murilogteixeira.github.io/opencode-masterclass/)
 >
-> **Translation status:** All six modules are translated to English. A few extra pages (Cheat Sheet, Study path, Glossary, Challenges) remain in Portuguese.
+> **Translation status:** Fully translated — all six modules plus the Cheat Sheet, Study path, Glossary and Challenges are available in English.
 
 <div align="center">
 
@@ -55,5 +55,5 @@ opencode   # then run: /connect  and  /models
 
 ## Useful links
 
-- 📄 [Cheat Sheet](../CHEATSHEET.md) · 🧭 [Study path](../docs/TRILHA.md) · 📖 [Glossary](../docs/GLOSSARIO.md)
+- 📄 [Cheat Sheet](CHEATSHEET.md) · 🧭 [Study path](docs/TRILHA.md) · 📖 [Glossary](docs/GLOSSARIO.md) · 🏋️ [Challenges](desafios/README.md)
 - Official docs: [opencode.ai/v2/docs](https://opencode.ai/v2/docs/)
