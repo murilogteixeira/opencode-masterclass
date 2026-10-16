@@ -4,7 +4,7 @@
 
 > 🇧🇷 **The full lesson content is written in Portuguese.** → [Read in Portuguese](https://murilogteixeira.github.io/opencode-masterclass/)
 >
-> **Translation status:** Modules 01, 02 and 03 are translated to English. Pages without a translation fall back to Portuguese.
+> **Translation status:** All six modules are translated to English. A few extra pages (Cheat Sheet, Study path, Glossary, Challenges) remain in Portuguese.
 
 <div align="center">
 
@@ -36,9 +36,9 @@
 - **[Module 01 — Fundamentals & Configuration](modulo-01-fundamentos/README.md)** ✅ translated
 - **[Module 02 — Customizing the Agent](modulo-02-intermediario/README.md)** ✅ translated
 - **[Module 03 — Extending OpenCode](modulo-03-avancado/README.md)** ✅ translated
-- [Module 04 — Automation & CI/CD](../modulo-04-automacao/README.md) 🇧🇷
-- [Module 05 — Integration & Platform](../modulo-05-integracao/README.md) 🇧🇷
-- [Module 06 — Operations & Enterprise](../modulo-06-operacao/README.md) 🇧🇷
+- **[Module 04 — Automation & CI/CD](modulo-04-automacao/README.md)** ✅ translated
+- **[Module 05 — Integration & Platform](modulo-05-integracao/README.md)** ✅ translated
+- **[Module 06 — Operations & Enterprise](modulo-06-operacao/README.md)** ✅ translated
 
 ## Quick start
 
