@@ -127,4 +127,4 @@ Crie um script Bash chamado `hello_opencode.sh` que:
 
 ---
 
-**Próximo passo:** [Módulo 02 — APIs, Prompts e Dados](../modulo-02-intermediario/README.md) · [Voltar ao módulo](README.md)
+**Próximo passo:** [Aula 03 — A TUI](03-tui-sessoes-e-keybinds.md) · [Voltar ao módulo](README.md)

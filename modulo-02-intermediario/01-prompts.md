@@ -1,4 +1,4 @@
-# 02. Prompts Avançados e Instruções de Projeto
+# 01. Instruções de Projeto e Prompts
 
 ## 🎯 Objetivo
 Escrever prompts consistentes e, principalmente, **persistir instruções no projeto** para que todo o time se beneficie — sem repetir prompt todo dia.
@@ -77,4 +77,4 @@ Recursos de template:
 
 ---
 
-**Próximo passo:** [Aula 03 — Manipulação de Dados](03-dados.md) · [Voltar ao módulo](README.md)
+**Próximo passo:** [Aula 02 — Comandos](02-comandos.md) · [Voltar ao módulo](README.md)

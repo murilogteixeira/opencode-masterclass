@@ -99,4 +99,4 @@ Não use `temperature`, `top_p`, `prompt`, `permission`, `tools`, `disable` ou `
 
 ---
 
-**Próximo passo:** [Aula 02 — Workflows e CI/CD](02-workflows.md) · [Voltar ao módulo](README.md)
+**Próximo passo:** [Aula 02 — Plugins](02-plugins.md) · [Voltar ao módulo](README.md)

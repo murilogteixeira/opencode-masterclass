@@ -1,14 +1,16 @@
-# Módulo 04 — Projetos Finais e Otimização de Performance
+# Projetos Finais
 
-Este módulo apresenta projetos práticos e técnicas de otimização para levar seu código ao próximo nível.
+Nível: 🟣 Especialista
+
+Projetos que integram tudo o que você aprendeu — agentes, comandos, CI, otimização e deploy.
 
 ## Aulas
 
 | # | Título | Arquivo |
 |---|--------|---------|
-| 01 | Projeto Capstone: Sistema de Gestão de Tarefas | `01-capstone.md` |
-| 02 | Otimização de Performance | `02-otimizacao.md` |
-| 03 | Escalabilidade e Deploy | `03-deploy.md` |
+| 01 | Projeto Capstone: Revisor Automático de PRs | [`01-capstone.md`](01-capstone.md) |
+| 02 | Otimização: contexto, custo e velocidade | [`02-otimizacao.md`](02-otimizacao.md) |
+| 03 | Deploy e integrações | [`03-deploy.md`](03-deploy.md) |
 
 ## Pastas
 
