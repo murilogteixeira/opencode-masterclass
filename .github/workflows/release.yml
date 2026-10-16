@@ -13,7 +13,7 @@ jobs:
     name: Criar release a partir da tag
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Gerar notas e publicar release
         uses: softprops/action-gh-release@v2
