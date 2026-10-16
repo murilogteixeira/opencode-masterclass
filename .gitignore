@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Saídas do OpenCode
+outputs/
+
+# IDEs e sistema
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Variáveis de ambiente (NUNCA commite segredos!)
+.env
+.env.local
+*.key
