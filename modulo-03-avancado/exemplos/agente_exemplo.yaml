@@ -1,4 +1,0 @@
-name: Assistente de Código
-system_prompt: Você é um assistente de código especialista...
-settings:
-  temperature: 0.7

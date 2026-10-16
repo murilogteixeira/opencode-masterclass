@@ -1,5 +1,5 @@
-# Exemplo 2: Script JavaScript com OpenCode
-# Demonstração de script JavaScript simples usando o OpenCode
+// Exemplo 2: Script JavaScript com OpenCode
+// Demonstração de script JavaScript simples usando o OpenCode
 
 // Função para saudar o usuário
 function saudacao(nome) {
