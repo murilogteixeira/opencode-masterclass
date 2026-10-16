@@ -55,5 +55,5 @@ opencode   # then run: /connect  and  /models
 
 ## Useful links
 
-- 📄 [Cheat Sheet](CHEATSHEET.md) · 🧭 [Study path](docs/TRILHA.md) · 📖 [Glossary](docs/GLOSSARIO.md) · 🏋️ [Challenges](desafios/README.md)
+- 📄 [Cheat Sheet](CHEATSHEET.md) · 🧭 [Study path](docs/TRILHA.md) · 📖 [Glossary](docs/GLOSSARIO.md) · 🏋️ [Challenges](desafios/README.md) · ❓ [FAQ](docs/FAQ.md)
 - Official docs: [opencode.ai/v2/docs](https://opencode.ai/v2/docs/)

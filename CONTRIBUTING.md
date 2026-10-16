@@ -60,4 +60,4 @@ Use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ## Dúvidas
 
-Abra uma [issue](../../issues) — há um template para reportar erros e sugerir conteúdo.
+Consulte primeiro as [Perguntas frequentes](docs/FAQ.md). Para discussões abertas, use as [GitHub Discussions](https://github.com/murilogteixeira/opencode-masterclass/discussions); para erros e sugestões de conteúdo, abra uma [issue](../../issues) — há um template para isso.
