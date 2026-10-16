@@ -22,6 +22,7 @@ Instruções para agentes OpenCode trabalhando neste projeto.
 - `docs/` — trilha de estudo (`TRILHA.md`) e glossário (`GLOSSARIO.md`); `CHEATSHEET.md` na raiz
 - Exemplos de código em `exemplos/` dentro de cada módulo; código deve rodar sem ajustes
 - Links entre aulas são relativos e devem funcionar no GitHub — valide com `bash scripts/check-links.sh`
+- Traduções em inglês ficam em `en/` espelhando a estrutura (ex.: `en/modulo-01-fundamentos/`), com os **mesmos nomes de arquivo** para o `mkdocs-static-i18n` mapear. Rótulos de menu traduzidos ficam em `nav_translations` no `mkdocs.yml`.
 
 ## Git
 - Commits em Conventional Commits (feat:, fix:, docs:, refactor:)
